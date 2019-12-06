@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <title>{{ title }}</title>    
+    </head>
+    <br>
+    <bod>
+        <div align="center">
+            {% if current_user.is_authenticated %}
+            <a href="{{ url_for('log') }}">Log</a>
+            <a href="{{ url_for('create') }}">Create</a>
+            <a href="{{ url_for('account') }}">Account</a>
+            <a href="{{ url_for('logout') }}">Logout</a>
+            {% else %}
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('register') }}">Register</a>
+            <a href="{{ url_for('login') }}">Login</a>
+            {% endif %}
+        </div>
+        <br>
+        <div align="center">
+                {% block body_content %}
+                {% endblock %}
+        </div>
+    </body>
+</html>

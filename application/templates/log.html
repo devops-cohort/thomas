@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block body_content %}
+    <h1>Workout Log Page</h1>
+    <p>this is the about page</p>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Body Part</th>
+                <th>Workout</th>
+                <th>Sets</th>
+                <th>Reps</th>
+                <th>Actions</th>
+            </tr>
+            {% for log in workouts %}
+            <tr>
+                <td>{{ log.date_posted }}</td>
+                <td>{{ log.body_part }}</td>
+                <td>{{ log.workout }}</td>
+                <td>{{ log.sets }}</td>
+                <td>{{ log.reps }}</td>
+                <td>
+                    <a href="/delete_workout/{{ log.id }}">Delete</a>
+                    <a href="/update_workout/{{ log.id }}">Update</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+{% endblock body_content %}
