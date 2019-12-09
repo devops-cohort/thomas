@@ -27,7 +27,7 @@ Testing was done using pytest please see documentation for further details.
 
 ## Deployment
 
-![CI pipeline](/Documentation/deployment.png)
+![CI pipeline](https://github.com/devops-cohort/thomas/blob/final/Documentation/deployment%20.png)
 
 ### Technologies used
 
