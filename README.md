@@ -38,7 +38,7 @@ Testing was done using pytest please see documentation for further details.
 - Git
 - Github
 - SQLAlchemy
-- [Trello]9https://trello.com/b/30LbMCdG/individual-project) 
+- [Trello](https://trello.com/b/30LbMCdG/individual-project) 
 - Jenkins
 
 
