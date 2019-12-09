@@ -8,6 +8,8 @@ To create a CRUD application with utilisation of supporting tools, methodologies
 I decided to build a Workout Log application where users can create their workouts, allowing them to keep track of their workouts. It will also allow my users to update and delete their workout logs.
 Users will be able to register an account, allowing them to just see their own workouts in the log.
 
+[Trello](https://trello.com/b/30LbMCdG/individual-project) 
+
 ## ERD diagrams
 
 Initial design 
@@ -36,7 +38,7 @@ Testing was done using pytest please see documentation for further details.
 - Git
 - Github
 - SQLAlchemy
-- Trello
+- [Trello]9https://trello.com/b/30LbMCdG/individual-project) 
 - Jenkins
 
 
