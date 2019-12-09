@@ -44,7 +44,8 @@ Testing was done using pytest please see documentation for further details.
 
 ## The future
 Many things can be added, for the future. 
-Add a feature where there is a library of workouts that the user can use, which will allow the ability to give recommendations to the user, helping them decide on a workout to do. maybe the ability to filter out workouts by body type.  
+Add a feature where there is a library of workouts that the user can use, which will allow the ability to give recommendations to the user, helping them decide on a workout to do. maybe the ability to filter out workouts by body type. 
+Another feature could be comparing your own workouts against the workouts of other users, allowing the user to track their progress against another user.
 
 
 
