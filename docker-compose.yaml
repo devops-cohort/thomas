@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  flask-app:
+    image: flask-app:latest
+    build: .
+    environment:
+     - MYSQL_USER=${MYSQL_USER}
+     - MYSQL_PASS=${MYSQL_PASS}
+     - MYSQL_IP=${MYSQL_IP}
+     - SECRET=${SECRET}
+  nginx-flask:
+    ports:
+     - target: 80
+       published: 80
+    
